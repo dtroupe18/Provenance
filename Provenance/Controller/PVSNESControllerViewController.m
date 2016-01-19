@@ -28,19 +28,19 @@
         
         if ([[[button titleLabel] text] isEqualToString:@"A"])
         {
-            [button setTag:PVSNESButtonA];
+            [button setTag:PVSNESButtonB];
         }
         else if ([[[button titleLabel] text] isEqualToString:@"B"] || [[[button titleLabel] text] isEqualToString:@"1"])
         {
-            [button setTag:PVSNESButtonB];
+            [button setTag:PVSNESButtonA];
         }
         else if ([[[button titleLabel] text] isEqualToString:@"X"] || [[[button titleLabel] text] isEqualToString:@"2"])
         {
-            [button setTag:PVSNESButtonX];
+            [button setTag:PVSNESButtonY];
         }
         else if ([[[button titleLabel] text] isEqualToString:@"Y"])
         {
-            [button setTag:PVSNESButtonY];
+            [button setTag:PVSNESButtonX];
         }
     }
     
